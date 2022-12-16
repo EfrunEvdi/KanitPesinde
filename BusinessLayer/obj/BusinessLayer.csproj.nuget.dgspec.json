@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj": {}
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj": {
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj",
+        "projectUniqueName": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj",
         "projectName": "Core_KanitPesindeProject",
-        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj",
+        "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\KanitPesindeProject\\Core_KanitPesindeProject.csproj",
         "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\KanitPesindeProject\\obj\\",
+        "outputPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\KanitPesindeProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
