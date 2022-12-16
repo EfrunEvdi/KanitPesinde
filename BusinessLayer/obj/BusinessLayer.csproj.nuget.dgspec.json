@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\KanitPesinde_Project\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "E:\\KanitPesinde_Project\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\KanitPesinde_Project\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "E:\\KanitPesinde_Project\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
-        "outputPath": "E:\\KanitPesinde_Project\\KanitPesinde\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
