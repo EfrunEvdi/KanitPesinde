@@ -10,7 +10,7 @@ namespace EntityLayer.Concrete
     public class DetectiveStory
     {
         [Key]
-        public int DetectiveStoryID { get; set; }    
+        public int DetectiveStoryID { get; set; }
         public string DetectiveTitle1 { get; set; }
         public string DetectiveDescription1 { get; set; }
         public string DetectiveImage1 { get; set; }

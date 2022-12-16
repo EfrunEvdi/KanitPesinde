@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "EntityLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\efrun\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,7 +58,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

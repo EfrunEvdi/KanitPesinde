@@ -10,9 +10,9 @@ namespace EntityLayer.Concrete
     public class Intro
     {
         [Key]
-        public int IntroID { get; set; }    
-        public string IntroTitle { get; set; } 
-        public string IntroDescription { get; set; }    
+        public int IntroID { get; set; }
+        public string IntroTitle { get; set; }
+        public string IntroDescription { get; set; }
 
     }
 }

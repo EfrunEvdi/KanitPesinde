@@ -13,8 +13,8 @@ namespace EntityLayer.Concrete
         public int AboutID { get; set; }
         public string AboutTitle { get; set; }
         public string AboutDescription { get; set; }
-        public string AboutValue { get; set; }  
-        public string AboutValueTitle { get; set; } 
+        public string AboutValue { get; set; }
+        public string AboutValueTitle { get; set; }
 
     }
 }

@@ -15,6 +15,6 @@ namespace EntityLayer.Concrete
         public string FindKillerClose { get; set; }
         public string FindKillerImage { get; set; }
         public bool FindKillerStatus { get; set; }
-       
+
     }
 }
