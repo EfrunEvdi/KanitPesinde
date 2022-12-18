@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=KanitPesindeDB; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=KanitPesindeDB; integrated security=true");
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Comment> Comments { get; set; }
