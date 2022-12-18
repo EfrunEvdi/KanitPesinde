@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\efrun\\source\\repos\\KanitPesinde\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,6 +130,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
