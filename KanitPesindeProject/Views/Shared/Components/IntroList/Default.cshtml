@@ -1,0 +1,44 @@
+﻿@using EntityLayer.Concrete
+@model List<Intro>
+
+@foreach (var item in Model)
+{
+    <div class="w3l-hero-headers-9" style="background-image:url('~/wwwroot/KanitPesinde/assets/images/b@item.IntroID.jpg');">
+        <div class="css-slider">
+
+
+            <input id="slide-@item.IntroID" type="radio" name="slides" checked>
+
+
+
+
+            <section class="slide slide-@item.IntroID">
+
+
+                <div class="container">
+                    <div class="banner-text">
+                        <h2>@item.IntroTitle</h2>
+                        <p>
+                            @item.IntroDescription
+                        </p>
+
+                        <a href="contact.html" class="btn logo-button top-margin">Read More</a>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+            <header>
+
+                <label for="slide-@item.IntroID" id="slide-@item.IntroID"></label>
+
+            </header>
+
+
+        </div>
+
+    </div>
+}

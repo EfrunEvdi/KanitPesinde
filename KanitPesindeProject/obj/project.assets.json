@@ -2326,7 +2326,9 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "DataAccessLayer": "1.0.0",
-          "EntityLayer": "1.0.0"
+          "EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12"
         },
         "compile": {
           "bin/placeholder/BusinessLayer.dll": {}
@@ -2353,6 +2355,10 @@
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12"
+        },
         "compile": {
           "bin/placeholder/EntityLayer.dll": {}
         },

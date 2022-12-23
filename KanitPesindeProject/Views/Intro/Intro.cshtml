@@ -1,0 +1,26 @@
+﻿@using EntityLayer.Concrete
+@model List<Intro>
+
+@foreach (var item in Model)
+{
+    <div class="css-slider">
+        <input id="slide-@item.IntroID" type="radio" name="slides" checked>
+        <section class="slide slide-one">
+            <div class="container">
+                <div class="banner-text">
+                    <h2>@item.IntroTitle</h2>
+                    <p>
+                        @item.IntroDescription
+                    </p>
+                    <a href="contact.html" class="btn logo-button top-margin">Read More</a>
+                </div>
+            </div>
+
+        </section>
+
+        <header>
+            <label for="slide-@item.IntroID" id="slide-@item.IntroID"></label>
+
+        </header>
+    </div>
+}

@@ -22,16 +22,60 @@ namespace KanitPesindeProject.Controllers
         {
             return View();
         }
-		public IActionResult introdeneme()
+		public IActionResult Introdeneme()
 		{
 			return View();
 		}
 
-        public IActionResult newspaperdeneme()
+        public IActionResult Newspaper1deneme()
+        {
+            return View();
+        }
+        public IActionResult Newspaper2deneme()
         {
             return View();
         }
 
+        public IActionResult Lastdeneme()
+        {
+            return View();
+        }
+        public IActionResult Detectivestorydeneme()
+        {
+            return View();
+        }
+        public IActionResult Investigation1deneme()
+        {
+            return View();
+        }
+        public IActionResult Investigation2deneme()
+        {
+            return View();
+        }
+        public IActionResult Accused1deneme()
+        {
+            return View();
+        }
+        public IActionResult Accused2deneme()
+        {
+            return View();
+        }
+        public IActionResult Crimescene1deneme()
+        {
+            return View();
+        }
+        public IActionResult Crimescene2deneme()
+        {
+            return View();
+        }
+        public IActionResult Hint1deneme()
+        {
+            return View();
+        }
+        public IActionResult Hint2deneme()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

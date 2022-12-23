@@ -1767,6 +1767,10 @@
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12"
+        },
         "compile": {
           "bin/placeholder/EntityLayer.dll": {}
         },
@@ -6068,7 +6072,7 @@
       "projectName": "DataAccessLayer",
       "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
