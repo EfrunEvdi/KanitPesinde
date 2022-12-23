@@ -8,13 +8,5 @@ namespace Core_KanitPesindeProject.Controllers
         {
             return View();
         }
-        public PartialViewResult Intro()
-        {
-            return PartialView();
-        }
-        public PartialViewResult AboutTheGame()
-        {
-            return PartialView();
-        }
     }
 }

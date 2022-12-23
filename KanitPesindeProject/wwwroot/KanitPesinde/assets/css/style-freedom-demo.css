@@ -2544,10 +2544,11 @@
     -o-background-size: cover;
     -ms-background-size: cover;
     transition: left 0s .75s ease-in-out; }
-  .w3l-hero-headers-9 .slide-1 {
-    background-image: url("../images/b1.jpg"); }
-  .w3l-hero-headers-9 .slide-2 {
-    background-image: url("../images/b2.jpg"); }
+/*  .w3l-hero-headers-9 .slide-one {
+    background-image: url("../../assets/images/b1.jpg")}
+.w3l-hero-headers-9 .slide-two {
+    background-image: url("../../assets/images/b2.jpg");
+}*/
   .w3l-hero-headers-9 .slide, .w3l-hero-headers-9 .css-slider {
     height: 700px; }
   .w3l-hero-headers-9 .slide:before {

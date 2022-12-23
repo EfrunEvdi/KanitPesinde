@@ -2,7 +2,7 @@
 
 namespace DataAccessLayer.Migrations
 {
-    public partial class mig_kurulum : Migration
+    public partial class mig_allahuekber : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -1,0 +1,31 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+
+<section class="w3l-call-to-action_9">
+    <div class="call-w3">
+        <div class="container">
+            <div class=" main-cont-wthree-2">
+                <div class="left-contect-calls text-center">
+                    @foreach (var item in Model)
+                    {
+                        <h3 class="header-name">@item.AboutTitle</h3>
+                        <p class="tiltle-para">
+                            @item.AboutDescription
+                        </p>
+                    }
+                    <div class="call-grids-w3 ">
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="grids-effect-2">
+                                <span>@item.AboutValue</span>
+                                <h4>@item.AboutValueTitle</h4>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

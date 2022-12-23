@@ -1,44 +1,42 @@
 ﻿@using EntityLayer.Concrete
 @model List<Intro>
 
-@foreach (var item in Model)
-{
-    <div class="w3l-hero-headers-9" style="background-image:url('~/wwwroot/KanitPesinde/assets/images/b@item.IntroID.jpg');">
-        <div class="css-slider">
 
+<div class="w3l-hero-headers-9">
+    <div class="css-slider">
+        @{
+            var headerHtml = "";
+         }
+        @foreach (var item in Model)
+        {
+            var itemId = @item.IntroID;
+            var className = "";
+            var checkedControl = "";
+            var imgUrl = ("/KanitPesinde/assets/images/b" + @itemId + ".jpg");
 
-            <input id="slide-@item.IntroID" type="radio" name="slides" checked>
+            if(itemId == 1)
+            {
+                checkedControl = "checked";
+            }
+         
+            <input id="slide-@itemId" type="radio" name="slides" @checkedControl>
+            <section class="slide slide-@className" style="background-image:url(@imgUrl)">
+                    <div class="container">
+                        <div class="banner-text">
+                            <h2>@item.IntroTitle</h2>
+                            <p>
+                                @item.IntroDescription
+                            </p>
 
-
-
-
-            <section class="slide slide-@item.IntroID">
-
-
-                <div class="container">
-                    <div class="banner-text">
-                        <h2>@item.IntroTitle</h2>
-                        <p>
-                            @item.IntroDescription
-                        </p>
-
-                        <a href="contact.html" class="btn logo-button top-margin">Read More</a>
+                            <a href="contact.html" class="btn logo-button top-margin">Read More</a>
+                        </div>
                     </div>
-                </div>
+                </section>
+            headerHtml += ("<label for='slide-"+@itemId+"' id='slide-"+@itemId+"'></label>");
+        }
 
-
-
-            </section>
-
-
-            <header>
-
-                <label for="slide-@item.IntroID" id="slide-@item.IntroID"></label>
-
-            </header>
-
-
-        </div>
-
+        <header>
+            @Html.Raw(@headerHtml)
+        </header>
     </div>
-}
+</div>

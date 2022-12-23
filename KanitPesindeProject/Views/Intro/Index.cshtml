@@ -1,24 +1,10 @@
-﻿
-@{
+﻿@*@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_KanitPesindeLayout.cshtml";
 }
 
+@await Component.InvokeAsync("IntroList")
 
+@await Component.InvokeAsync("AboutList")
 
-    
-        @*@await Html.PartialAsync("Intro")*@
-    @await Component.InvokeAsync("IntroList")
-
-
-@await Html.PartialAsync("AboutTheGame")
-
-
-
-<!-- grids block 4 -->
-
-
-
-
-
-
+*@

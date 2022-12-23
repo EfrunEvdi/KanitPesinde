@@ -37,3 +37,6 @@ C:\Users\sulec\source\repos\KanitPesinde\EntityLayer\obj\Debug\net5.0\ref\Entity
 C:\Users\SEM\source\repos\KanitPesinde\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.json
 C:\Users\SEM\source\repos\KanitPesinde\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.dev.json
 C:\Users\SEM\source\repos\KanitPesinde\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
+C:\Users\efrun\Source\Repos\KanitPesinde\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.json
+C:\Users\efrun\Source\Repos\KanitPesinde\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.dev.json
+C:\Users\efrun\Source\Repos\KanitPesinde\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
