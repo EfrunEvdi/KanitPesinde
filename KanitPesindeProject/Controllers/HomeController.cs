@@ -22,12 +22,17 @@ namespace KanitPesindeProject.Controllers
         {
             return View();
         }
-		public IActionResult deneme()
+		public IActionResult introdeneme()
 		{
 			return View();
 		}
 
-		public IActionResult Privacy()
+        public IActionResult newspaperdeneme()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
         {
             return View();
         }
