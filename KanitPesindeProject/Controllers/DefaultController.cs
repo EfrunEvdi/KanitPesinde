@@ -2,7 +2,7 @@
 
 namespace Core_KanitPesindeProject.Controllers
 {
-    public class IntroController : Controller
+    public class DefaultController : Controller
     {
         public IActionResult Index()
         {

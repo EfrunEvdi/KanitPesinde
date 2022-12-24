@@ -55,3 +55,6 @@ C:\Users\efrun\Source\Repos\KanitPesinde\BusinessLayer\bin\Debug\net5.0\Business
 C:\Users\efrun\Source\Repos\KanitPesinde\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
 C:\Users\efrun\Source\Repos\KanitPesinde\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\efrun\Source\Repos\KanitPesinde\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
+C:\Users\sulec\Source\Repos\KanitPesinde\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.json
+C:\Users\sulec\Source\Repos\KanitPesinde\BusinessLayer\bin\Debug\net5.0\BusinessLayer.runtimeconfig.dev.json
+C:\Users\sulec\Source\Repos\KanitPesinde\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
