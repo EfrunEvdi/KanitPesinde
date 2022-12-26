@@ -527,3 +527,13 @@ C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razo
 C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\ScriptPartial.cshtml.g.cs
 C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Accused\Accused1.cshtml.g.cs
 C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Accused\Accused2.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\CrimeScene\CrimeScene1.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\CrimeScene\CrimeScene2.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Newspaper\Newspaper1.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Newspaper\Newspaper2.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Hint\Hint1.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Hint\Hint2.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\DetectiveStory\DetectiveStory.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Last\Last.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Investigation\Investigation1.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Investigation\Investigation2.cshtml.g.cs
