@@ -216,9 +216,6 @@ C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razo
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Home\Accused2deneme.cshtml.g.cs
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Home\Investigation1deneme.cshtml.g.cs
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Home\Investigation2deneme.cshtml.g.cs
-C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Intro\Index.cshtml.g.cs
-C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Intro\Intro.cshtml.g.cs
-C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Intro\AboutTheGame.cshtml.g.cs
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
@@ -520,3 +517,13 @@ C:\Users\sulec\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Ra
 C:\Users\sulec\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\NavbarPartial.cshtml.g.cs
 C:\Users\sulec\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\FooterPartial.cshtml.g.cs
 C:\Users\sulec\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Home\Hint1deneme.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Default\AboutTheGame.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Default\Intro.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\Components\AboutList\Default.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\FooterPartial.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\HeadPartial.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\NavbarPartial.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\LayoutPartial\ScriptPartial.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Accused\Accused1.cshtml.g.cs
+C:\Users\SEM\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Accused\Accused2.cshtml.g.cs
