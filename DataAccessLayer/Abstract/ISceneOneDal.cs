@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-	public interface ISceneOneDal:IGenericDal<SceneOne>
-	{
-	}
+    public interface ISceneOneDal : IGenericDal<SceneOne>
+    {
+    }
 }

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Abstract
+namespace BusinessLayer.Abstract
 {
-    public interface IInvestigation1Dal : IGenericDal<Investigation1>
+    public interface IAccussedOneService : IGenericService<AccussedOne>
     {
     }
 }

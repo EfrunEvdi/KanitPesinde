@@ -20,7 +20,7 @@ namespace DataAccessLayer.Repository
         public T GetByID(int id)
         {
             using var c = new Context();
-            return c.Set<T>().Find(id); 
+            return c.Set<T>().Find(id);
         }
 
         public List<T> GetList()

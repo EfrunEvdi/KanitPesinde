@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-	public interface IDetectiveStoryDal : IGenericDal<DetectiveStory>
-	{
-	}
+    public interface IDetectiveStoryDal : IGenericDal<DetectiveStory>
+    {
+    }
 }

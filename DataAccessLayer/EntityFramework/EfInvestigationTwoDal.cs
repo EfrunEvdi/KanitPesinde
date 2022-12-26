@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfInvestigation2Dal : GenericRepository<Investigation2>, IInvestigation2Dal
+    public class EfInvestigationTwoDal : GenericRepository<InvestigationTwo>, IInvestigationTwoDal
     {
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class FindKillerManager:IFindKillerService
+    public class FindKillerManager : IFindKillerService
     {
         IFindKillerDal _findKillerDal;
         public FindKillerManager(IFindKillerDal findKillerDal)
