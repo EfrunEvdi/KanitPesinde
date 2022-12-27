@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\efrun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\efrun\\Source\\Repos\\KanitPesinde\\EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\efrun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
