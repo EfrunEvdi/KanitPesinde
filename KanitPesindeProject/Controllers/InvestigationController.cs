@@ -4,11 +4,11 @@ namespace Core_KanitPesindeProject.Controllers
 {
     public class InvestigationController : Controller
     {
-        public IActionResult Investigation1()
+        public IActionResult InvestigationOne()
         {
             return View();
         }
-        public IActionResult Investigation2()
+        public IActionResult InvestigationTwo()
         {
             return View();
         }

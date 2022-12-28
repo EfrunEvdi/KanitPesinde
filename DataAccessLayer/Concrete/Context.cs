@@ -15,8 +15,8 @@ namespace DataAccessLayer.Concrete
             optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=KanitPesindeDB; integrated security=true");
         }
         public DbSet<About> Abouts { get; set; }
-        public DbSet<AccussedOne> Accusseds1 { get; set; }
-        public DbSet<AccussedTwo> Accusseds2 { get; set; }
+        public DbSet<AccussedOne> AccussedOnes { get; set; }
+        public DbSet<AccussedTwo> AccussedTwos { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<DetectiveStory> DetectiveStories { get; set; }
         public DbSet<FindKiller> FindKillers { get; set; }
@@ -25,5 +25,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<InvestigationTwo> InvestigationsTwo { get; set; }
         public DbSet<SceneOne> SceneOnes { get; set; }
         public DbSet<SceneTwo> SceneTwos { get; set; }
-    }
+		public DbSet<QuestionTwo> QuestionTwos { get; set; }
+		public DbSet<QuestionOne> QuestionOnes { get; set; }
+	}
 }

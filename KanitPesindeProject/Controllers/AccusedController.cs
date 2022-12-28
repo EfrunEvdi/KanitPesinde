@@ -4,11 +4,11 @@ namespace Core_KanitPesindeProject.Controllers
 {
     public class AccusedController : Controller
     {
-        public IActionResult Accused1()
+        public IActionResult AccusedOne()
         {
             return View();
         }
-        public IActionResult Accused2()
+        public IActionResult AccusedTwo()
         {
             return View();
         }
