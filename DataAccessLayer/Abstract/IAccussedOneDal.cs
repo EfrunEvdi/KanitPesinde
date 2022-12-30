@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace DataAccessLayer.Abstract
 {
     public interface IAccussedOneDal : IGenericDal<AccussedOne>
-    {
+    { 
        
     }
 }

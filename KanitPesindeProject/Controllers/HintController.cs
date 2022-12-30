@@ -4,11 +4,11 @@ namespace Core_KanitPesindeProject.Controllers
 {
     public class HintController : Controller
     {
-        public IActionResult Hint1()
+        public IActionResult HintOne()
         {
             return View();
         }
-        public IActionResult Hint2()
+        public IActionResult HintTwo()
         {
             return View();
         }

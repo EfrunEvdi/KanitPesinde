@@ -4,11 +4,11 @@ namespace Core_KanitPesindeProject.Controllers
 {
     public class NewspaperController : Controller
     {
-        public IActionResult Newspaper1()
+        public IActionResult NewspaperOne()
         {
             return View();
         }
-        public IActionResult Newspaper2()
+        public IActionResult NewspaperTwo()
         {
             return View();
         }
