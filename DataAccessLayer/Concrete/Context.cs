@@ -21,8 +21,8 @@ namespace DataAccessLayer.Concrete
         public DbSet<DetectiveStory> DetectiveStories { get; set; }
         public DbSet<FindKiller> FindKillers { get; set; }
         public DbSet<Intro> Intros { get; set; }
-        public DbSet<InvestigationOne> InvestigationsOne { get; set; }
-        public DbSet<InvestigationTwo> InvestigationsTwo { get; set; }
+        public DbSet<InvestigationOne> InvestigationOnes { get; set; }
+        public DbSet<InvestigationTwo> InvestigationTwos { get; set; }
         public DbSet<SceneOne> SceneOnes { get; set; }
         public DbSet<SceneTwo> SceneTwos { get; set; }
 		public DbSet<QuestionTwo> QuestionTwos { get; set; }
