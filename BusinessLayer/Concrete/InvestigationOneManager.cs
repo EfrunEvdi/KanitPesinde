@@ -32,7 +32,11 @@ namespace BusinessLayer.Concrete
         {
             return _investigationOneDal.GetByID(id);
         }
+        public List<InvestigationOne> GetInvestigationOneByID(int id)
+        {
+            return _investigationOneDal.GetList(x=>x.InvestigationOneID== id);  
 
+        }
         public List<InvestigationOne> TGetList()
         {
             return _investigationOneDal.GetList();

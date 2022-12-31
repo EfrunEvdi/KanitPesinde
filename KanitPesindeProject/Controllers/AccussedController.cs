@@ -5,15 +5,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Core_KanitPesindeProject.Controllers
 {
-    public class AccusedController : Controller
+    public class AccussedController : Controller
     {
         AccussedOneManager aom = new AccussedOneManager(new EfAccussedOneDal());
         AccussedTwoManager atm = new AccussedTwoManager(new EfAccussedTwoDal());
-        public IActionResult AccusedOne()
-        { 
-            return View();
+        public IActionResult AccussedOne()
+        {
+            var values = aom.GetAccussedOneListWithInvOne();
+            return View(values);
         }
-        public IActionResult AccusedTwo()
+        public IActionResult AccussedTwo()
         {
             return View();
         }

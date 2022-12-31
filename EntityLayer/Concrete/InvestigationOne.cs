@@ -21,8 +21,7 @@ namespace EntityLayer.Concrete
 		public string InvOneImageUrl { get; set; }
 		public string InvOneOfficer { get; set; }
 		public string InvOneClosed { get; set; }
-		public int AccussedOneID { get; set; }
-		public AccussedOne AccussedOne { get; set; }
-		public List<QuestionOne> QuestionOnes { get; set; }
+        public List<AccussedOne> AccussedOnes { get; set; }
+        public List<QuestionOne> QuestionOnes { get; set; }
 	}
 }

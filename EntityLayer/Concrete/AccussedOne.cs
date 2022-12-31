@@ -14,7 +14,9 @@ namespace EntityLayer.Concrete
         public string AccussedOneNameSurname { get; set; }
         public string AccussedOneClose { get; set; }
         public string AccussedOneImageUrl { get; set; }
-		public List<InvestigationOne> InvestigationOnes { get; set; }
+        public int InvestigationOneID { get; set; }
+        public InvestigationOne InvestigationOne { get; set; }
+        
 
 	}
 }

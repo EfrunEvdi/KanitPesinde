@@ -20,6 +20,11 @@ namespace BusinessLayer.Concrete
             _accussedOneDal = accussedOneDal;
         }
 
+        public List<AccussedOne> GetAccussedOneListWithInvOne()
+        {
+            return _accussedOneDal.GetListWithInvOne(); 
+        }
+
         public void TAdd(AccussedOne t)
         {
             _accussedOneDal.Insert(t);

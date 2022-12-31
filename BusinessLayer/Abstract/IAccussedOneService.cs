@@ -9,5 +9,6 @@ namespace BusinessLayer.Abstract
 {
     public interface IAccussedOneService : IGenericService<AccussedOne>
     {
+        List<AccussedOne> GetAccussedOneListWithInvOne(); 
     }
 }

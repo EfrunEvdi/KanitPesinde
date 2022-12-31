@@ -9,6 +9,6 @@ namespace DataAccessLayer.Abstract
 {
     public interface IAccussedOneDal : IGenericDal<AccussedOne>
     { 
-       
+       List<AccussedOne> GetListWithInvOne();  
     }
 }

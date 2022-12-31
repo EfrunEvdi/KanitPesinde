@@ -1,0 +1,56 @@
+﻿@using EntityLayer.Concrete
+@model List<AccussedOne>
+@{
+    ViewData["Title"] = "AccussedOne";
+    Layout = "~/Views/Shared/_KanitPesindeLayout.cshtml";
+}
+
+@*SANIKLAR 1 *@
+<section class="w3l-inner-banner-main">
+    <div class="about-inner inner2">
+        <div class="container seen-w3">
+            <h4 class="title"> Squads</h4>
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="index.html">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active">Squads Page</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- breadcrumbs //-->
+<section class="w3l-team-main-6">
+    <!-- /team-grids -->
+    <div class="team-content">
+        <div class="container">
+            <div class="main-titles-head text-center">
+
+                <h3 class="header-name">
+                    ŞÜPHELİLER
+                </h3>
+                <p class="para mt-3">
+                    Amet consectetur adipisicing elit. Repell endus veniam, quaerat quasi in vel exerci
+                    tationem cum consequatur accusamus. Maxime quibusdam explicabo assumenda veniam velit.
+                </p>
+            </div>
+            <div class="row grid-col-4 text-center">
+                @foreach (var item in Model) {
+                <div class="team-colomn col-lg-3 col-md-6 col-sm-6">
+                    <div class="team-main-6">
+                        <div class="column-6">
+                            <a href="/Investigation/InvestigationOne/@item.InvestigationOneID"><img class="img-responsive" src="@item.AccussedOneImageUrl" alt=" "></a>
+                        </div>
+                        <div class="right-team-9">
+                                <h6><a href="/Investigation/InvestigationOne/@item.InvestigationOneID" class="title-team-32">@item.AccussedOneNameSurname</a></h6>
+                            <p class="sm-text-32">@item.AccussedOneClose</p>
+
+                           
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- /team-grids -->
+</section>
+

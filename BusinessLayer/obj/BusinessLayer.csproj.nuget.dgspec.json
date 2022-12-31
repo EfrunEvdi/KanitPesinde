@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\sulec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sulec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -89,25 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\sulec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sulec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,15 +106,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -175,25 +165,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\SEM\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SEM\\Source\\Repos\\KanitPesinde\\EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\sulec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sulec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,7 +187,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -257,7 +242,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -59,7 +59,12 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("AccussedOneNameSurname")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("InvestigationOneID")
+                        .HasColumnType("int");
+
                     b.HasKey("AccussedOneID");
+
+                    b.HasIndex("InvestigationOneID");
 
                     b.ToTable("AccussedOnes");
                 });
@@ -80,7 +85,12 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("AccussedTwoNameSurname")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("InvestigationTwoID")
+                        .HasColumnType("int");
+
                     b.HasKey("AccussedTwoID");
+
+                    b.HasIndex("InvestigationTwoID");
 
                     b.ToTable("AccussedTwos");
                 });
@@ -185,9 +195,6 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AccussedOneID")
-                        .HasColumnType("int");
-
                     b.Property<int>("InvOneChildrenNo")
                         .HasColumnType("int");
 
@@ -217,8 +224,6 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("InvestigationOneID");
 
-                    b.HasIndex("AccussedOneID");
-
                     b.ToTable("InvestigationOnes");
                 });
 
@@ -228,9 +233,6 @@ namespace DataAccessLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AccussedTwoID")
-                        .HasColumnType("int");
 
                     b.Property<int>("InvTwoChildrenNo")
                         .HasColumnType("int");
@@ -260,8 +262,6 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("InvestigationTwoID");
-
-                    b.HasIndex("AccussedTwoID");
 
                     b.ToTable("InvestigationTwos");
                 });
@@ -354,26 +354,26 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("SceneTwos");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.InvestigationOne", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.AccussedOne", b =>
                 {
-                    b.HasOne("EntityLayer.Concrete.AccussedOne", "AccussedOne")
-                        .WithMany("InvestigationOnes")
-                        .HasForeignKey("AccussedOneID")
+                    b.HasOne("EntityLayer.Concrete.InvestigationOne", "InvestigationOne")
+                        .WithMany("AccussedOnes")
+                        .HasForeignKey("InvestigationOneID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("AccussedOne");
+                    b.Navigation("InvestigationOne");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.InvestigationTwo", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.AccussedTwo", b =>
                 {
-                    b.HasOne("EntityLayer.Concrete.AccussedTwo", "AccussedTwo")
-                        .WithMany("InvestigationTwos")
-                        .HasForeignKey("AccussedTwoID")
+                    b.HasOne("EntityLayer.Concrete.InvestigationTwo", "InvestigationTwo")
+                        .WithMany("AccussedTwos")
+                        .HasForeignKey("InvestigationTwoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("AccussedTwo");
+                    b.Navigation("InvestigationTwo");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.QuestionOne", b =>
@@ -398,23 +398,17 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("InvestigationTwo");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.AccussedOne", b =>
-                {
-                    b.Navigation("InvestigationOnes");
-                });
-
-            modelBuilder.Entity("EntityLayer.Concrete.AccussedTwo", b =>
-                {
-                    b.Navigation("InvestigationTwos");
-                });
-
             modelBuilder.Entity("EntityLayer.Concrete.InvestigationOne", b =>
                 {
+                    b.Navigation("AccussedOnes");
+
                     b.Navigation("QuestionOnes");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.InvestigationTwo", b =>
                 {
+                    b.Navigation("AccussedTwos");
+
                     b.Navigation("QuestionTwos");
                 });
 #pragma warning restore 612, 618

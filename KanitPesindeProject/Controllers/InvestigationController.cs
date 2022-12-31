@@ -8,9 +8,10 @@ namespace Core_KanitPesindeProject.Controllers
     {
         InvestigationOneManager iom = new InvestigationOneManager(new EfInvestigationOneDal());
         InvestigationTwoManager itm = new InvestigationTwoManager(new EfInvestigationTwoDal());
-        public IActionResult InvestigationOne()
+        public IActionResult InvestigationOne(int id)
         {
-            return View();
+            var values = iom.GetInvestigationOneByID(id);
+            return View(values);
         }
         public IActionResult InvestigationTwo()
         {

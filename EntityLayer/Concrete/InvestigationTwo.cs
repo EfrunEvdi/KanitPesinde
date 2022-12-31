@@ -20,8 +20,7 @@ namespace EntityLayer.Concrete
         public string InvTwoImageUrl { get; set; }
         public string InvTwoOfficer { get; set; }
         public string InvTwoClosed { get; set; }
-		public int AccussedTwoID { get; set; }
-		public AccussedTwo AccussedTwo { get; set; }
-		public List<QuestionTwo> QuestionTwos { get; set; }
+        public List<AccussedTwo> AccussedTwos { get; set; }
+        public List<QuestionTwo> QuestionTwos { get; set; }
 	}
 }

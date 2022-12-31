@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<EntityLayer.Concrete.InvestigationOne>
 @{
     ViewData["Title"] = "InvestigationOne";
     Layout = "~/Views/Shared/_KanitPesindeLayout.cshtml";
@@ -31,22 +31,23 @@
             <p class="para mt-3">Amet consectetur adipisicing elit. Repell endus veniam, quaerat quasi in vel exerci
               tationem cum consequatur accusamus. Maxime quibusdam explicabo assumenda veniam velit.</p>
           </div>
+          @foreach (var item in Model){
           <div class="text14-max-align">
-            <h5 class="text14-heading">Hi, I am Ahamed</h5>
+            <h5 class="text14-heading">@item.InvOneNameSurname</h5>
             <div class="align-text14-cols">
               <div class="text14-right">
-                <img src="~/KanitPesinde/assets/images/t3.jpg" alt="">
+                <img src="@item.InvOneImageUrl" alt="">
 
               </div>
               <div class="text14-left">
                         <h3 class="host-team-info">My Details</h3>
                         <ul class="my-host-info">
-                            <li><span>Date of birth</span>: Jan 28, 1992</li>
-                            <li><span>Expert in</span>: Designing</li>
-                            <li><span>Phone</span>: +011 222 3333</li>
-                            <li><span>Email</span>: <a href="mailto:example@mail.com">mail@example.com</a></li>
-                            <li><span>Address</span>: 3030 New York, NY, USA</li>
-                            <li><span>Website</span>: <a href="#mywebsite">mywebsite.com</a></li>
+                            <li><span>Date of birth</span>: @item.InvOneDate</li>
+                            <li><span>Expert in</span>: @item.InvOneClosed</li>
+                            <li><span>Phone</span>: @item.InvOnePhone</li>
+                            <li><span>Email</span>: <a href="mailto:example@mail.com">@item.InvOneOfficer</a></li>
+                            <li><span>Address</span>: @item.InvOneCity</li>
+                            <li><span>Website</span>: @item.InvOneMaritalStatus - @item.InvOneChildrenNo</li>
                         </ul>
                  
 
@@ -55,7 +56,8 @@
                     @await Component.InvokeAsync("QuestionOneList")
             </div>
           </div>
-        </div>
+            }
+      </div>
       </div>
     </section>
  
