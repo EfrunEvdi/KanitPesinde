@@ -6088,11 +6088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\sulec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sulec\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6109,11 +6109,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

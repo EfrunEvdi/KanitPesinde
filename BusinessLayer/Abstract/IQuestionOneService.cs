@@ -9,5 +9,7 @@ namespace BusinessLayer.Abstract
 {
 	public interface IQuestionOneService:IGenericService<QuestionOne>
 	{
-	}
+        List<QuestionOne> TGetList(int id);
+
+    }
 }

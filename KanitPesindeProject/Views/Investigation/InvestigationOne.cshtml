@@ -53,7 +53,8 @@
 
                 
               </div>
-                    @await Component.InvokeAsync("QuestionOneList")
+              
+                    @await Component.InvokeAsync("QuestionOneList", new {id=ViewBag.i})
             </div>
           </div>
             }

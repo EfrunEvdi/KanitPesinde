@@ -6067,9 +6067,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\sulec\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -6088,8 +6088,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\sulec\\Source\\Repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\sulec\\source\\repos\\KanitPesinde\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

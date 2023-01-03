@@ -6,11 +6,11 @@ namespace Core_KanitPesindeProject.ViewComponents.QuestionOne
 {
     public class QuestionOneList:ViewComponent
     {
-       // QuestionOneManager qom = new QuestionOneManager(new EfQuestionOneDal());
-        public IViewComponentResult Invoke()
+        QuestionOneManager qom = new QuestionOneManager(new EfQuestionOneDal());
+        public IViewComponentResult Invoke(int id)
         {
-            //var values = qom.TGetList(1);  parantez içine values yazmayı unutma 
-            return View();  
+            var values = qom.TGetList(id);  //parantez içine values yazmayı unutma 
+            return View(values);  
         }
 
     }

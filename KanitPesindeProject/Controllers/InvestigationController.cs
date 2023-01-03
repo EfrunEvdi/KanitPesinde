@@ -10,6 +10,7 @@ namespace Core_KanitPesindeProject.Controllers
         InvestigationTwoManager itm = new InvestigationTwoManager(new EfInvestigationTwoDal());
         public IActionResult InvestigationOne(int id)
         {
+            ViewBag.i = id;
             var values = iom.GetInvestigationOneByID(id);
             return View(values);
         }
