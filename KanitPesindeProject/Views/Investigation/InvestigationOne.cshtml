@@ -6,62 +6,63 @@
 
 
 
+<!-- SANIKLARIN İFADESİ 1 -->
+<section class="w3l-inner-banner-main">
+	<div class="about-inner inner2">
+		<div class="container seen-w3">
+			<h4 class="title">Soruşturma Dosyası</h4>
+			<ul class="breadcrumbs-custom-path">
+				<li><a href="#">Soruşturma<span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+				<li class="active">Sorgulama</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<!-- breadcrumbs //-->
+<section class="w3l-team-single">
+	<div id="text14-block" class="section-gap">
+		<div class="container">
+			<div class="main-titles-head text-center">
 
-    <!-- SANIKLARIN İFADESİ 1 -->
-    <section class="w3l-inner-banner-main">
-      <div class="about-inner inner2">
-        <div class="container seen-w3">
-          <h4 class="title">Squad Page</h4>
-          <ul class="breadcrumbs-custom-path">
-            <li><a href="index.html">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-            <li class="active">Squad page</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- breadcrumbs //-->
-    <section class="w3l-team-single">
-      <div id="text14-block" class="section-gap">
-        <div class="container">
-          <div class="main-titles-head text-center">
+				<h3 class="header-name">
+					Şüphelinin Soruşturma Dosyası
+				</h3>
+				@*<p class="para mt-3">
+					Amet consectetur adipisicing elit. Repell endus veniam, quaerat quasi in vel exerci
+					tationem cum consequatur accusamus. Maxime quibusdam explicabo assumenda veniam velit.
+				</p>*@
+			</div>
+			@foreach (var item in Model)
+			{
+				<div class="text14-max-align">
+					<h5 class="text14-heading">@item.InvOneNameSurname</h5>
+					<div class="align-text14-cols">
+						<div class="text14-right">
+							<img src="@item.InvOneImageUrl" alt="">
 
-            <h3 class="header-name">
-              Squad Details
-            </h3>
-            <p class="para mt-3">Amet consectetur adipisicing elit. Repell endus veniam, quaerat quasi in vel exerci
-              tationem cum consequatur accusamus. Maxime quibusdam explicabo assumenda veniam velit.</p>
-          </div>
-          @foreach (var item in Model){
-          <div class="text14-max-align">
-            <h5 class="text14-heading">@item.InvOneNameSurname</h5>
-            <div class="align-text14-cols">
-              <div class="text14-right">
-                <img src="@item.InvOneImageUrl" alt="">
+						</div>
+						<div class="text14-left">
+							<h3 class="host-team-info">Şüpheli Detay</h3>
+							<ul class="my-host-info">
+								<li><span>Yakınlık Derecesi</span>: @item.InvOneClosed</li>
+								<li><span>Tel</span>: @item.InvOnePhone</li>
+								<li><span>Medeni Hal-Çocuk Sayısı</span>: @item.InvOneMaritalStatus - @item.InvOneChildrenNo</li>
+								<li><span>Yaşadığı Yer</span>: @item.InvOneCity</li>
+								<li><span>Soruşturma Tarihi</span>: @item.InvOneDate</li>
+								<li><span>Soruşturma Memurunun Adı</span>: @item.InvOneOfficer</li>
+							</ul>
 
-              </div>
-              <div class="text14-left">
-                        <h3 class="host-team-info">My Details</h3>
-                        <ul class="my-host-info">
-                            <li><span>Date of birth</span>: @item.InvOneDate</li>
-                            <li><span>Expert in</span>: @item.InvOneClosed</li>
-                            <li><span>Phone</span>: @item.InvOnePhone</li>
-                            <li><span>Email</span>: <a href="mailto:example@mail.com">@item.InvOneOfficer</a></li>
-                            <li><span>Address</span>: @item.InvOneCity</li>
-                            <li><span>Website</span>: @item.InvOneMaritalStatus - @item.InvOneChildrenNo</li>
-                        </ul>
-                 
 
-                
-              </div>
-              
-                    @await Component.InvokeAsync("QuestionOneList", new {id=ViewBag.i})
-            </div>
-          </div>
-            }
-      </div>
-      </div>
-    </section>
- 
+
+						</div>
+
+						@await Component.InvokeAsync("QuestionOneList", new {id=ViewBag.i})
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</section>
 
 
 

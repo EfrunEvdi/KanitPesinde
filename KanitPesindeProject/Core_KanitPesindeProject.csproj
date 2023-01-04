@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\KanitPesinde\assets\images\videos\**" />
+    <Content Remove="wwwroot\KanitPesinde\assets\images\videos\**" />
+    <EmbeddedResource Remove="wwwroot\KanitPesinde\assets\images\videos\**" />
+    <None Remove="wwwroot\KanitPesinde\assets\images\videos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
       <PrivateAssets>all</PrivateAssets>
