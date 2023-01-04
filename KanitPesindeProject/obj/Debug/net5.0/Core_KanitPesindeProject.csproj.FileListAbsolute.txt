@@ -578,3 +578,5 @@ C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razo
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\CrimeScene\CrimeSceneTwo.cshtml.g.cs
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Newspaper\NewspaperOne.cshtml.g.cs
 C:\Users\SEM\source\repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Newspaper\NewspaperTwo.cshtml.g.cs
+C:\Users\efrun\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\Components\HintOneList\Default.cshtml.g.cs
+C:\Users\efrun\Source\Repos\KanitPesinde\KanitPesindeProject\obj\Debug\net5.0\Razor\Views\Shared\Components\HintTwoList\Default.cshtml.g.cs

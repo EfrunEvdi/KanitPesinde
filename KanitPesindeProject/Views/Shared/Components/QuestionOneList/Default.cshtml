@@ -1,14 +1,15 @@
 ﻿@model IEnumerable<EntityLayer.Concrete.QuestionOne>
 
-    @foreach (var item in Model) {
-<p class="para">
-    <b>Soru:</b>
-    <br>
-   @item.QuestionOneQuestion
-</p>
-<p class="para">
-    <b>Cevap:</b>
-    <br>
-    @item.QuestionOneAnswer
-</p>
+@foreach (var item in Model)
+{
+    <p class="para">
+        <b>Soru : </b>
+        <br>
+        @item.QuestionOneQuestion
+    </p>
+    <p class="para">
+        <b>Cevap : </b>
+        <br>
+        @item.QuestionOneAnswer
+    </p>
 }
